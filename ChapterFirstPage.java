@@ -49,5 +49,9 @@ public class ChapterFirstPage
 		verifybutton.click();
 		return PageFactory.initElements(driver, ChapterFirstPage.class);
 	}
+	@Test
+	public void VerifyTest()
+	{
+		System.out.println("am from Verify test case")
 }
 
